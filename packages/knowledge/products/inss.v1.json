@@ -1,0 +1,10 @@
+{
+  "summary": "Consignado INSS com desconto no benefício, prazo até 84 meses e margem de 35% (30% BPC/LOAS).",
+  "eligibility_rules": ["Aposentado/pensionista", "Analfabeto não elegível na jornada digital", "Valor R$ 800 a R$ 75.000 por CPF"],
+  "triage_questions": ["Você é aposentado(a) ou pensionista?", "Você já tem empréstimo descontando no benefício hoje?"],
+  "explanation_templates": ["No INSS as parcelas são descontadas do benefício. Eu te mostro as opções conforme sua margem e regras de análise."],
+  "min_data_fields": ["name", "cpf", "birth_date"],
+  "handoff_fields": ["name", "cpf", "birth_date", "qualification_answers", "customer_preference"],
+  "forbidden_asks": ["senha", "token", "gov.br", "CVV", "foto_documento_inicial"],
+  "objection_templates": {"libera_hoje": "Pode ser rápido, mas depende da análise e do parceiro."}
+}

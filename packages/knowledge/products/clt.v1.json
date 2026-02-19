@@ -1,0 +1,10 @@
+{
+  "summary": "Crédito do trabalhador CLT ativo com pelo menos 6 meses em empresa.",
+  "eligibility_rules": ["CLT ativo", "Mínimo 6 meses", "Margem até 35%"],
+  "triage_questions": ["Você é CLT ativo?", "Você tem pelo menos 6 meses na empresa?", "Qual o nome da empresa?"],
+  "explanation_templates": ["É um crédito com análise e margem de até 35%."],
+  "min_data_fields": ["name", "cpf", "birth_date", "company_name"],
+  "handoff_fields": ["name", "cpf", "birth_date", "company_name"],
+  "forbidden_asks": ["senha", "codigo_verificacao"],
+  "objection_templates": {"golpe": "Nada é contratado sem sua confirmação."}
+}

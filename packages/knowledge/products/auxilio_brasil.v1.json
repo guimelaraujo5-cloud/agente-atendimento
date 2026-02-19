@@ -1,0 +1,10 @@
+{
+  "summary": "Consignado Bolsa Família/Auxílio Brasil via Crefisa, até R$ 750 em 12x de R$ 159.",
+  "eligibility_rules": ["Recebe benefício", "No máximo 1 contrato ativo", "Benefício mínimo operacional R$ 400"],
+  "triage_questions": ["Você recebe Bolsa Família / Auxílio Brasil atualmente?", "Você já tem contrato ativo desse consignado?", "Qual valor você recebe do benefício?"],
+  "explanation_templates": ["Esse produto libera até R$ 750,00 em 12x de R$ 159,00 descontado no dia do benefício."],
+  "min_data_fields": ["name", "cpf", "phone", "email", "nis_number", "benefit_amount"],
+  "handoff_fields": ["full_name", "cpf", "nis_number", "phone_with_ddd", "email", "benefit_amount"],
+  "forbidden_asks": ["senha", "gov.br", "foto_documento_inicial"],
+  "objection_templates": {"contrato_ativo": "Enquanto houver contrato ativo, não dá pra fazer outro."}
+}

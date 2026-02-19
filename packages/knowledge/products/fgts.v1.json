@@ -1,0 +1,10 @@
+{
+  "summary": "Antecipação de 1 a 10 parcelas do saque-aniversário sem parcela mensal.",
+  "eligibility_rules": ["Saldo FGTS", "Aderiu saque-aniversário", "Autorizou banco no app FGTS"],
+  "triage_questions": ["Você já aderiu ao Saque-Aniversário?", "Você tem saldo no FGTS?", "Qual é o seu mês de aniversário?"],
+  "explanation_templates": ["Você antecipa hoje parte do que receberia nos próximos anos. Não tem parcela mensal."],
+  "min_data_fields": ["name", "cpf", "birth_date", "birth_month"],
+  "handoff_fields": ["name", "cpf", "birth_date", "birth_month", "qualification_answers"],
+  "forbidden_asks": ["senha", "token", "foto_cartao"],
+  "objection_templates": {"cpf": "Posso te explicar sem CPF e pedir depois para simulação."}
+}

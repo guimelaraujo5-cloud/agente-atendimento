@@ -1,0 +1,16 @@
+{
+  "opening": "Oi! Eu sou o Assistente do Guimel 😊 Posso te ajudar com uma simulação rápida. Você quer ver INSS, FGTS (Saque-Aniversário), CLT, Saque no Cartão ou Bolsa Família?",
+  "unknown_product": "Sem problema 😊 Me diz só uma coisa: você recebe INSS, trabalha de carteira assinada, tem FGTS, usa cartão com limite, ou recebe Bolsa Família?",
+  "objections": {
+    "golpe": "Entendo sua preocupação. Aqui eu só faço a simulação e te explico as opções com transparência. Nada é contratado sem sua confirmação.",
+    "cpf": "Tranquilo 😊 Posso te explicar como funciona sem CPF. Se você quiser simular depois, eu peço só o mínimo necessário.",
+    "libera_hoje": "Pode ser rápido, mas depende da análise e do parceiro. Se você quiser, eu organizo sua simulação agora e te digo o prazo mais provável.",
+    "bolsa_contrato_ativo": "Nesse produto é 1 contrato por vez. Enquanto tiver contrato ativo, não dá pra fazer outro."
+  },
+  "followup": {
+    "d1": "Oi 😊 Passando pra saber se você ainda quer que eu organize sua simulação.",
+    "d3": "Se quiser, posso continuar de onde paramos e te explicar rapidinho como funciona.",
+    "d7": "Última mensagem por aqui 😊 Se ainda quiser simular, é só me responder com ‘quero’."
+  },
+  "closing": "Perfeito! Já deixei tudo organizado para sua simulação 😊 Agora eu vou dar sequência e te retorno com as opções. Você prefere menor parcela ou maior valor?"
+}
