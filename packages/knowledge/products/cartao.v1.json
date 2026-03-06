@@ -1,0 +1,10 @@
+{
+  "summary": "Saque no cartão usando limite disponível, parcelado em 4x/8x/12x na fatura.",
+  "eligibility_rules": ["Cartão com limite", "Banco emissor compatível"],
+  "triage_questions": ["Você tem cartão com limite disponível?", "Você prefere pagar em 4x, 8x ou 12x?", "Qual o banco do cartão?"],
+  "explanation_templates": ["Você usa parte do limite do cartão e recebe via PIX depois da formalização."],
+  "min_data_fields": ["name", "cpf", "birth_date", "card_bank", "preferred_installments"],
+  "handoff_fields": ["name", "cpf", "birth_date", "card_bank", "preferred_installments"],
+  "forbidden_asks": ["foto_cartao", "cvv", "cartao_virtual_print"],
+  "objection_templates": {"seguranca": "A formalização ocorre com confirmação e transparência."}
+}
